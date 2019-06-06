@@ -1,0 +1,219 @@
+[
+    {
+        "Name": "AutomationSciencePack",
+        "Recipe": {
+			"CopperPlate": 1,
+			"IronGearWheel": 1
+			},
+        "CraftSpeed": 5,
+        "YieldPerCraft": 1
+    },
+    {
+        "Name": "LogisticSciencePack",
+        "Recipe": {
+			"TransportBelt": 1,
+			"Inserter": 1
+			},
+        "CraftSpeed": 6,
+        "YieldPerCraft": 1
+    },
+    {
+        "Name": "MilitarySciencePack",
+        "Recipe": {
+			"PiercingRoundsMagazine": 1,
+			"Grenade": 1,
+			"Wall": 2
+			},
+        "CraftSpeed": 10,
+        "YieldPerCraft": 2
+    },
+    {
+        "Name": "ChemicalSciencePack",
+        "Recipe": {
+			"SolidFuel": 1,
+			"AdvancedCircuit": 3,
+			"EngineUnit": 2
+			},
+        "CraftSpeed": 24,
+        "YieldPerCraft": 2
+    },
+	
+    {
+        "Name": "CopperOre",
+        "Recipe": {},
+        "CraftSpeed": 0.5,
+        "YieldPerCraft": 1
+    },
+    {
+        "Name": "IronOre",
+        "Recipe": {},
+        "CraftSpeed": 0.5,
+        "YieldPerCraft": 1
+    },
+    {
+        "Name": "Stone",
+        "Recipe": {},
+        "CraftSpeed": 0.5,
+        "YieldPerCraft": 1
+    },
+    {
+        "Name": "Coal",
+        "Recipe": {},
+        "CraftSpeed": 0.5,
+        "YieldPerCraft": 1
+    },
+    {
+        "Name": "SolidFuel",
+        "Recipe": {},
+        "CraftSpeed": 2,
+        "YieldPerCraft": 1
+    },
+	
+    {
+        "Name": "CopperPlate",
+        "Recipe": {
+			"CopperOre": 1
+			},
+        "CraftSpeed": 3.2,
+        "YieldPerCraft": 1
+    },
+    {
+        "Name": "IronPlate",
+        "Recipe": {
+			"IronOre": 1
+			},
+        "CraftSpeed": 3.2,
+        "YieldPerCraft": 1
+    },
+    {
+        "Name": "IronGearWheel",
+        "Recipe": {
+            "IronPlate": 2
+			},
+        "CraftSpeed": 0.5,
+        "YieldPerCraft": 1
+    },
+    {
+        "Name": "TransportBelt",
+        "Recipe": {
+            "IronPlate": 1,
+			"IronGearWheel": 1
+			},
+        "CraftSpeed": 0.5,
+        "YieldPerCraft": 2
+    },
+    {
+        "Name": "Inserter",
+        "Recipe": {
+            "IronPlate": 1,
+			"IronGearWheel": 1,
+			"ElectronicCircuit": 1
+			},
+        "CraftSpeed": 2.2,
+        "YieldPerCraft": 1
+    },
+    {
+        "Name": "ElectronicCircuit",
+        "Recipe": {
+            "IronPlate": 1,
+			"CopperCable": 3
+			},
+        "CraftSpeed": 0.5,
+        "YieldPerCraft": 1
+    },
+    {
+        "Name": "CopperCable",
+        "Recipe": {
+            "CopperPlate": 1
+			},
+        "CraftSpeed": 0.5,
+        "YieldPerCraft": 2
+    },
+    {
+        "Name": "PiercingRoundsMagazine",
+        "Recipe": {
+            "CopperPlate": 5,
+            "SteelPlate": 1,
+            "FirearmMagazine": 1
+			},
+        "CraftSpeed": 3,
+        "YieldPerCraft": 1
+    },
+    {
+        "Name": "SteelPlate",
+        "Recipe": {
+            "IronPlate": 5
+			},
+        "CraftSpeed": 16,
+        "YieldPerCraft": 1
+    },
+    {
+        "Name": "FirearmMagazine",
+        "Recipe": {
+            "IronPlate": 4
+			},
+        "CraftSpeed": 1,
+        "YieldPerCraft": 1
+    },
+    {
+        "Name": "Grenade",
+        "Recipe": {
+            "Coal": 10,
+            "IronPlate": 5
+			},
+        "CraftSpeed": 8,
+        "YieldPerCraft": 1
+    },
+    {
+        "Name": "Wall",
+        "Recipe": {
+			"StoneBrick": 5
+			},
+        "CraftSpeed": 0.5,
+        "YieldPerCraft": 1
+    },
+    {
+        "Name": "StoneBrick",
+        "Recipe": {
+			"Stone": 2
+			},
+        "CraftSpeed": 3.2,
+        "YieldPerCraft": 1
+    },
+    {
+        "Name": "AdvancedCircuit",
+        "Recipe": {
+			"PlasticBar": 2,
+			"CopperCable": 4,
+			"ElectronicCircuit": 2
+			},
+        "CraftSpeed": 6,
+        "YieldPerCraft": 1
+    },
+    {
+        "Name": "PlasticBar",
+        "Recipe": {
+			"Coal": 1
+			},
+        "CraftSpeed": 1,
+        "YieldPerCraft": 2
+    },
+    {
+        "Name": "EngineUnit",
+        "Recipe": {
+			"SteelPlate": 1,
+			"IronGearWheel": 1,
+			"Pipe": 1
+			},
+        "CraftSpeed": 10,
+        "YieldPerCraft": 1
+    },
+    {
+        "Name": "Pipe",
+        "Recipe": {
+			"IronPlate": 1
+			},
+        "CraftSpeed": 0.5,
+        "YieldPerCraft": 1
+    }
+]
